@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MEDINOVA - Hospital Website Template</title>
+    <title>HEALTH CENTER - homapage</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -38,29 +38,29 @@
     <div class="container-fluid sticky-top bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Medinova</h1>
+                <a href="homepage.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Health Center</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Homepage</a>
-                        <a href="about.html" class="nav-item nav-link">Chi siamo</a>
-                        <a href="price.html" class="nav-item nav-link">Specialisti</a>
+                        <a href="homepage.html" class="nav-item nav-link active">Homepage</a>
+                        <a href="chisiamo.html" class="nav-item nav-link">Chi siamo</a>
+                        <a href="specialisti.html" class="nav-item nav-link">Specialisti</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dipartimenti</a>
                             <div class="dropdown-menu m-0">
-                                <a href="blog.html" class="dropdown-item">Cardiologia</a>
-                                <a href="detail.html" class="dropdown-item">Radiologia</a>
-                                <a href="team.html" class="dropdown-item">Ortopedia</a>
-                                <a href="testimonial.html" class="dropdown-item">Gastroenterologia</a>
-                                <a href="appointment.html" class="dropdown-item">Pneumologia</a>
-                                <a href="search.html" class="dropdown-item">Neurologia</a>
+                                <a href="cardiologia.html" class="dropdown-item">Cardiologia</a>
+                                <a href="neurologia.html" class="dropdown-item">Neurologia</a>
+                                <a href="ortopedia.html" class="dropdown-item">Ortopedia</a>
+                                <a href="pediatria.html" class="dropdown-item">Pediatria</a>
+                                <a href="pneumologia.html" class="dropdown-item">Pneumologia</a>
+                                <a href="radiologia.html" class="dropdown-item">radiologia</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Log in</a>
+                        <a href="login.html" class="nav-item nav-link">Log in</a>
                     </div>
                 </div>
             </nav>
@@ -75,7 +75,7 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Benvenuti nel nostro centro medico</h5>
-                    <h1 class="display-1 text-white mb-md-4">La migliore soluzione sanitaria nella tua città</h1
+                    <h1 class="display-1 text-white mb-md-4">La migliore soluzione sanitaria nella tua città</h1>
                     <div class="pt-2" style="height: 70px;"></div>
                 </div>
             </div>
@@ -109,13 +109,13 @@
                         <div class="col-sm-3 col-6">
                             <div class="bg-light text-center rounded-circle py-4">
                                 <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
-                                <h6 class="mb-0">prestazioni<small class="d-block text-primary">Mediche</small></h6>
+                                <h6 class="mb-0">Prestazioni<small class="d-block text-primary">Mediche</small></h6>
                             </div>
                         </div>
                         <div class="col-sm-3 col-6">
                             <div class="bg-light text-center rounded-circle py-4">
                                 <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                                <h6 class="mb-0">Test<small class="d-block text-primary">Accurati</small></h6>
+                                <h6 class="mb-0">Analisi<small class="d-block text-primary">Accurate</small></h6>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-user-md text-white"></i>
+                            <i class="fa fa-2x fa-heartbeat text-white"></i>
                         </div>
                         <h4 class="mb-3">Cardiologia</h4>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
@@ -148,7 +148,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-procedures text-white"></i>
+                            <i class="fa fa-2x fa-bone text-white"></i>
                         </div>
                         <h4 class="mb-3">Ortopedia</h4>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
@@ -159,18 +159,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-stethoscope text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Gastroenterologia</h4>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-ambulance text-white"></i>
+                            <i class="fa fa-2x fa-brain text-white"></i>
                         </div>
                         <h4 class="mb-3">Neurologia</h4>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
@@ -181,9 +170,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-pills text-white"></i>
+                            <i class="fa fa-2x fa-baby text-white"></i>
                         </div>
-                        <h4 class="mb-3">Radiologia</h4>
+                        <h4 class="mb-3">Pediatria</h4>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -192,9 +181,20 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-microscope text-white"></i>
+                            <i class="fa fa-2x fa-lungs text-white"></i>
                         </div>
                         <h4 class="mb-3">Pneumologia</h4>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-x-ray text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Radiologia</h4>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -274,29 +274,34 @@
     
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Mettiti in contatto</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>I Settembre, Ancona, Italia</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>health.center@gmail.com</p>
-                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Homepage</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Chi siamo</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Dipartimenti</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Specialisti</a>
-                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Log in</a>
-                    </div>
+<div class="container-fluid bg-dark text-light mt-5 py-5 footer-custom">
+    <div class="container py-1">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                <a href="homepage.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Health Center</h1>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Mettiti in contatto</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>I Settembre, Ancona, Italia</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>health.center@gmail.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Homepage</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Chi siamo</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Dipartimenti</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Specialisti</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Log in</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
 
     <!-- Back to Top -->
